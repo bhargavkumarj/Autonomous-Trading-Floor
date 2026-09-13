@@ -213,13 +213,3 @@ No real money is at risk. The broker is a simulation, the trades are recorded in
 SQLite, and nothing in the system can reach a real brokerage.
 
 ---
-
-## Provenance
-
-Built from the week 6 (MCP) capstone of Ed Donner's *Master AI Agentic
-Engineering* course, restructured into a standalone application: a `src` layout
-with a domain/agent/interface split, centralised configuration, a CLI with an
-environment doctor, subprocess launching via `sys.executable` rather than a bare
-`uv run`, per-process-safe SQLite access, a test suite, and a fix for a
-`get_profit_loss()` signature bug in the original. See `ARCHITECTURE.md` for the
-design decisions.
