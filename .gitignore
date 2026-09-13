@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+*.db
+*.db-shm
+*.db-wal
+memory/
+.pytest_cache/
+.ruff_cache/
+node_modules/
+dist/
+
+# Personal notes, not published
+INTERVIEW_PREP.md
